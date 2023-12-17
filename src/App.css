@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: space-evenly;
+  
+  background-color: cyan;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.details-container {
+  flex: 1;
+  margin-left: 2px; /* Add space between components if needed */
+}
